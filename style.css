@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/sprite/behindbackground.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 5px 15px;
+}
+
+select {
+  width: 200px;
+  padding: 5px;
+  appearance: none;
+  border-radius: 0;
+  background-color: #a7c5e3;
+}
+
+select:focus,
+button:focus {
+  outline: 0;
+}
+
+.container {
+  background-color: #124e32;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  top: 70%; /* adjust position as needed */
+  left: 40%;
+}
+
+h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+input {
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 300px;
+  padding: 12px 20px;
+  margin-top: 10px;
+}
+
+.enemy {
+  position: absolute; /* or relative/fixed, but absolute is common */
+  top: 30%; /* adjust position as needed */
+  left: 43%;
+  display: none;
+}
+
+
+.score-container {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.time-container {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+.play-container {
+  display: none;
+}
+
+.end-game-container {
+  display: none;
+}
+

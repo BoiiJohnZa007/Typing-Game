@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Welsh-Breton Speed Typer</title>
+</head>
+
+<body>
+  <div class="enemy">
+    <img src="/sprite/notcompress/idle1.png" width="400" height="400">
+  </div>
+  <div class="container">
+
+    <div id="firstmenu-container" class="firstmenu-container">
+      <h2>Welsh & Breton Speed Typer</h2>
+      <button id="start-button">Start</button>
+    </div>
+
+    <div id="play-container" class="play-container">
+      <h2>Welsh & Breton Speed Typer</h2>
+      <small>Type the following:</small>
+      <h1 id="word"></h1>
+      <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." />
+      <p class="time-container">Your Health: <span id="time">10</span></p>
+      <p class="score-container">Stay alive : <span id="score">0s</span></p>
+    </div>
+
+    <div id="end-game-container" class="end-game-container">
+      <h1>You died</h1>
+      <p id="final-score"></p>
+      <button onclick="location.reload()">Reload</button>
+    </div>
+
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
