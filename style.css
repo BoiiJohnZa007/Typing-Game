@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("/sprite/behindbackground.png");
+  background-image: url("./sprite/behindbackground.png");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +66,8 @@ input {
 }
 
 .enemy {
-  position: absolute; /* or relative/fixed, but absolute is common */
-  top: 30%; /* adjust position as needed */
+  position: absolute;
+  top: 30%;
   left: 43%;
   display: none;
 }
