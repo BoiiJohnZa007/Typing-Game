@@ -211,15 +211,15 @@ let idleInterval;
 let state = "idle";
 
 const idleFrames = [
-  "/sprite/notcompress/idle1.png",
-  "/sprite/notcompress/ready1.png"
+  "./sprite/notcompress/idle1.png",
+  "./sprite/notcompress/ready1.png"
 ];
 
 const attackFrames = [
-  "/sprite/notcompress/ready1.png",
-  "/sprite/notcompress/ready2.png",
-  "/sprite/notcompress/ready3.png",
-  "/sprite/notcompress/ready4.png"
+  "./sprite/notcompress/ready1.png",
+  "./sprite/notcompress/ready2.png",
+  "./sprite/notcompress/ready3.png",
+  "./sprite/notcompress/ready4.png"
 ];
 
 // --- Idle Animation ---
